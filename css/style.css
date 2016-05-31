@@ -160,6 +160,15 @@ h1,h2,h3,h4,h5,h6{
   background-color:#4da5f5
 }
 
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 @media (min-width:768px){
   .navbar-default{
     background-color:transparent;
